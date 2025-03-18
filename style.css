@@ -160,3 +160,28 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Botón reiniciar sorteo */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.button-reset:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* cuando el botón está desactivado */
+
+.button-reset:disabled {
+    background-color: #d3d3d3; 
+    color: #a1a1a1; 
+    cursor: not-allowed; 
+}
